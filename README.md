@@ -20,3 +20,13 @@ El portafolio fue creado con las siguientes tecnologías. Adicionalmente se util
 - HTML
 - CSS
 - JavasCript
+
+### Proyect / Proyecto
+
+#### EN
+The project was deployed in Netlify and can be found at the link in my profile. However, you can also access it right below.
+
+#### ES
+El proyecto fue desplegado en Netlify y puede encontrarse en el link de mi perfil. Sin embargo, tambien puede acceder a el justo debajo
+
+Link: https://aimarbusta.netlify.app/
