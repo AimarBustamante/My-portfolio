@@ -1,6 +1,6 @@
 # Aimar Bustamante - Portfolio
 
-![Image text](https://github.com/AimarBustamante/myPortfolio/blob/main/img/Portafolio%20Mockup.png)
+![portfolio-img](https://github.com/AimarBustamante/myPortfolio/blob/main/img/Portafolio%20Mockup.png)
 
 Welcome / Bienvenido
 
