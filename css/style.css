@@ -105,6 +105,8 @@ nav ul li{
     position: relative;
 }
 
+
+
 nav ul li a::after{
     content: "";
     width: 0;
@@ -324,7 +326,7 @@ nav ul li a:hover::after{
     transform: translateY(-10px);
 }
 
-/** ---- Services ---- **/
+/** ---- Portfolio ---- **/
 
 #portfolio{
     padding: 50px 0;
@@ -374,12 +376,25 @@ nav ul li a:hover::after{
 }
 
 .layer h3{
+    font-size: 2em;
+}
+
+.layer p{
+    font-size: 1.2em;
+}
+
+.layer h3, .layer p{
     margin-bottom: 20px;
 }
 
 .layer a{
-    font-size: 1.3rem;
+    display: inline-block;
     margin-left: 10px;
+    font-size: 1.1rem;
+    color: var(--secondaryColor);
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 50%;
 }
 
 .work:hover img{
@@ -390,21 +405,15 @@ nav ul li a:hover::after{
     height: 100%;
 }
 
-.cta{
-    margin: 20px auto;
-    margin-top: 40px;
-    text-align: center;
-}
-
 .btn{
     display: block;
     margin: 50px auto;
-    margin-top: -10px;
     width: fit-content;
     border: 1px solid var(--secondaryColor);
     padding: 14px 50px;
     border-radius: 6px;
     transition: background-color .3s;
+    cursor: pointer;
 }
 
 .btn:hover{
@@ -490,6 +499,20 @@ form .btn2{
 }
 
 /** ----- Responsive for Mobile ----- **/
+
+@media only screen and (max-width: 1195px){
+
+    /** --- Contact --- **/
+
+    .download-btn{
+        margin: 0 50px 50px 0;
+    }
+
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+
+}
 
 @media only screen and (max-width: 1020px){
     
@@ -583,10 +606,28 @@ form .btn2{
         padding: 14px 40px
     }
 
-    /** --- Contact --- **/
+}
 
-    .contact-left, .contact-right{
-        flex-basis: 100%;
+@media only screen and (max-width: 600px){
+
+    /** --- Portfolio --- **/
+
+    .layer h3{
+        font-size: 1.5em;
+    }
+    
+    .layer p{
+        font-size: 1em;
+    }
+    
+    .layer h3, .layer p{
+        margin-bottom: 15px;
+    }
+
+    .layer a{
+        font-size: 1rem;
+        padding: 10px;
+        border-radius: 50%;
     }
 
 }
