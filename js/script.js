@@ -27,6 +27,10 @@ function language(){
     }
 }
 
+//* Load More
+
+
+
 //* Scroll Reveal
 
 ScrollReveal().reveal('nav');
