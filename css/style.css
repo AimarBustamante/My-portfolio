@@ -414,11 +414,7 @@ nav ul li a:hover::after{
     border-radius: 6px;
     transition: background-color .3s;
     cursor: pointer;
-}
-
-.btn:hover{
-    background-color: var(--secondaryColor);
-}
+}   
 
 /** ---- Contact ---- **/
 .contact-left{
