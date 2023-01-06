@@ -49,7 +49,7 @@ button{
 /** ----- Scrollbar ----- **/
 
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -90,9 +90,16 @@ button{
 
 nav{
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    backdrop-filter: blur(10px);
+    z-index: 1;
 }
 
 nav .fa-solid{
@@ -104,8 +111,6 @@ nav ul li{
     margin: 10px 20px;
     position: relative;
 }
-
-
 
 nav ul li a::after{
     content: "";
@@ -122,13 +127,18 @@ nav ul li a:hover::after{
     width: 100%;
 }
 
+nav #side-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .toggle-switch{
     display: flex;
-    height: 3   0px;
+    height: 30px;
     width: 100%;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1.5rem;
 }
 
 .toggler{
@@ -266,11 +276,14 @@ nav ul li a:hover::after{
     position: absolute;
     left: 0;
     bottom: -8px;
-    transition: .5s;
+}
+
+.tab-content{
+    margin-bottom: 20px;
 }
 
 .tab-content p{
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 
 .tab-content ul{
@@ -339,7 +352,7 @@ nav ul li a:hover::after{
 
 .work-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -389,11 +402,11 @@ nav ul li a:hover::after{
 
 .layer a{
     display: inline-block;
-    margin-left: 10px;
-    font-size: 1.1rem;
+    margin: 10px;
+    font-size: 1.5rem;
     color: var(--secondaryColor);
     background-color: #fff;
-    padding: 15px;
+    padding: 25px;
     border-radius: 50%;
 }
 
@@ -508,6 +521,30 @@ form .btn2{
         flex-basis: 100%;
     }
 
+    /** --- Portfolio --- **/
+    
+    .work-list{
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .layer h3{
+        font-size: 1.5em;
+    }
+    
+    .layer p{
+        font-size: 1em;
+    }
+    
+    .layer h3, .layer p{
+        margin-bottom: 15px;
+    }
+
+    .layer a{
+        font-size: 1rem;
+        padding: 10px;
+        border-radius: 50%;
+    }
+
 }
 
 @media only screen and (max-width: 1020px){
@@ -543,6 +580,14 @@ form .btn2{
         cursor: pointer;
     }
 
+    nav #side-menu{
+        display: block;
+    }
+
+    .toggle-switch{
+        justify-content: start;
+    }
+
     .toggler{
         background-color: #fff;
     }
@@ -558,6 +603,8 @@ form .btn2{
     .typed-out{
         font-size: 1.2rem;
     }
+
+
 
 }
 
@@ -598,32 +645,11 @@ form .btn2{
     }
 
     /** --- Portfolio --- **/
+
     .btn{
         padding: 14px 40px
     }
 
-}
 
-@media only screen and (max-width: 600px){
-
-    /** --- Portfolio --- **/
-
-    .layer h3{
-        font-size: 1.5em;
-    }
-    
-    .layer p{
-        font-size: 1em;
-    }
-    
-    .layer h3, .layer p{
-        margin-bottom: 15px;
-    }
-
-    .layer a{
-        font-size: 1rem;
-        padding: 10px;
-        border-radius: 50%;
-    }
 
 }
