@@ -7,6 +7,7 @@
     --secondaryColor: #007DB8;
     --thirdColor: #f7f7f7;
     --fourthColor: #ababab;
+    --fifthColor: #262626;
     
     /** ---- Fonts ---- **/
     --dmSans: 'DM Sans', sans-serif; 
@@ -17,7 +18,6 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-
     font-family: var(--dmSans);
     font-weight: 500;
 }
@@ -74,7 +74,7 @@ button{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero-gbimg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right 70%;
+    background-position: center center;
 }
 
 /** ---- Nav - Menu ---- **/
@@ -157,7 +157,7 @@ nav #side-menu{
     content: "";
     width: 16px;
     height: 16px;
-    background-color: #fff;
+    background-color: var(--thirdColor);
     position: absolute;
     border-radius: 50%;
     top: 50%;
@@ -310,7 +310,7 @@ nav #side-menu{
 }
 
 .services-list div{
-    background: #262626;
+    background: var(--fifthColor);
     padding: 40px;
     font-size: .813rem;
     border-radius: 10px;
@@ -405,7 +405,7 @@ nav #side-menu{
     margin: 10px;
     font-size: 1.5rem;
     color: var(--secondaryColor);
-    background-color: #fff;
+    background-color: var(--thirdColor);
     padding: 25px;
     border-radius: 50%;
 }
@@ -499,7 +499,7 @@ form .btn2{
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background-color: #262626;
+    background-color: var(--fifthColor);
     line-height: 1.5;
 }
 
@@ -589,7 +589,7 @@ form .btn2{
     }
 
     .toggler{
-        background-color: #fff;
+        background-color: var(--thirdColor);
     }
 
     .toggler::before{
@@ -649,7 +649,4 @@ form .btn2{
     .btn{
         padding: 14px 40px
     }
-
-
-
 }
