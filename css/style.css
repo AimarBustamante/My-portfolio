@@ -46,6 +46,10 @@ button{
     color: var(--secondaryColor);
 }
 
+.container{
+    padding: 10px 10%;
+}
+
 /** ----- Scrollbar ----- **/
 
 ::-webkit-scrollbar {
@@ -82,10 +86,6 @@ button{
 .main-title{
     font-weight: 500;
     margin: 0;
-}
-
-.container{
-    padding: 10px 10%;
 }
 
 nav{
@@ -314,7 +314,7 @@ nav #side-menu{
     padding: 40px;
     font-size: .813rem;
     border-radius: 10px;
-    transition: background-color .3s, transform .3s;
+    transition: background-color .25s, transform .25s;
 }
 
 .services-list div h3{
@@ -366,7 +366,7 @@ nav #side-menu{
 .work img{
     width: 100%;
     display: block;
-    transition: transform .3s;
+    transition: transform .25s;
 }
 
 .layer{
@@ -385,7 +385,7 @@ nav #side-menu{
     padding: 0 40px;
     text-align: center;
     font-size: .875rem;
-    transition: height .3s
+    transition: height .25s
 }
 
 .layer h3{
@@ -420,14 +420,22 @@ nav #side-menu{
 
 .btn{
     display: block;
-    margin: 50px auto;
     width: fit-content;
-    border: 1px solid var(--secondaryColor);
-    padding: 14px 50px;
+    padding: 14px 40px;
     border-radius: 6px;
-    transition: background-color .3s;
+    transition: background-color .25s;
     cursor: pointer;
-}   
+    display: inline-block;
+    background-color: var(--secondaryColor);
+    color: var(--thirdColor);
+    margin-bottom: 50px;
+    transition: transform .25s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+  
 
 /** ---- Contact ---- **/
 .contact-left{
@@ -457,19 +465,12 @@ nav #side-menu{
     margin-right: 15px;
     color: var(--fourthColor);
     display: inline-block;
-    transition: color .3s, transform .3s;
+    transition: color .25s, transform .25s;
 }
 
 .social-icons a:hover{
     color: var(--secondaryColor);
     transform: translateY(-5px);
-}
-
-.btn.btn2{
-    display: inline-block;
-    background-color: var(--secondaryColor);
-    color: var(--thirdColor);
-    cursor: pointer;
 }
 
 .contact-right form{
@@ -480,19 +481,12 @@ form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
-    background: #262626;
+    background: var(--fifthColor);
     padding: 15px;
     margin: 15px 0;
     color: var(--thirdColor);
     font-size: 1.125rem;
     border-radius: 6px;
-}
-
-form .btn2{
-    padding: 14px 60px;
-    font-size: 1.125rem;
-    margin-top: 20px;
-    cursor: pointer;
 }
 
 .copyright{
@@ -507,7 +501,13 @@ form .btn2{
     color: var(--secondaryColor);
 }
 
-/** ----- Responsive for Mobile ----- **/
+/** ----- Responsive ----- **/
+
+@media only screen and (min-width: 2150px){
+    .container{
+        padding: 10px 20%;
+    }
+}
 
 @media only screen and (max-width: 1195px){
 
