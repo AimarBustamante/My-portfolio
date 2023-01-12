@@ -21,7 +21,7 @@ El portafolio fue creado con las siguientes tecnologías. Adicionalmente se util
 
 - HTML
 - CSS
-- JavasCript
+- JavaScript
 
 ### Proyect / Proyecto
 
