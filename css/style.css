@@ -177,7 +177,7 @@ nav #side-menu{
 }
 
 .header-text h2{
-    font-size: 60px;
+    font-size: 3.75rem;
     margin: 20px 0;
 }
 
@@ -506,6 +506,10 @@ form input, form textarea{
 @media only screen and (min-width: 2150px){
     .container{
         padding: 10px 20%;
+    }
+
+    .header-text{
+        margin-top: 40%;
     }
 }
 
