@@ -4,11 +4,13 @@
 
 ## About 
 
-Welcome!
+### Brief
+
+Welcome 👋🏻
 
 The purpose of this portfolio is to show my skills as a programmer and the projects I have been involved in. It's an honor to have this website as a show of my skills
 
-## Tecnologies / Tecnologias
+## Tecnologies 
 
 The portfolio was created with the next Tecnologies. Additionally Google Fonts was used to customize the fonts, Font Awesome for the icons and Scroll Reveal for the scroll effect. Finally, the website was deployed on Netlify.
 
