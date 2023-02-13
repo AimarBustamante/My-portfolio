@@ -29,3 +29,4 @@ The portfolio was created with the next Tecnologies. Additionally Google Fonts w
 - [Portfolio](https://aimarbusta.netlify.app/)
 - [Twitter](https://twitter.com/aimarBusta)
 - [Instagram](https://www.instagram.com/aimarbusta.dev/)
+- [LinkedIn](https://www.linkedin.com/in/aimarbustamante/)
