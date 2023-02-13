@@ -6,19 +6,23 @@
 
 Welcome!
 
-The purpose of this portfolio is to show my skills as a programmer and the projects I have been involved in. 
+The purpose of this portfolio is to show my skills as a programmer and the projects I have been involved in. It's an honor to have this website as a show of my skills
 
 ## Tecnologies / Tecnologias
 
-The portfolio was created with the next Tecnologies. Additionally Google Fonts was used to customize the fonts, Font Awesome for the icons and Scroll Reveal for the scroll effect.
+The portfolio was created with the next Tecnologies. Additionally Google Fonts was used to customize the fonts, Font Awesome for the icons and Scroll Reveal for the scroll effect. Finally, the website was deployed on Netlify.
 
 - HTML
 - CSS
 - JavaScript
 
-## Proyect 
+## Color Reference
 
-The project was deployed in Netlify and can be found at the link in my profile. However, you can also access it right below.
+- primaryColor: `#121212`
+- secondaryColor: `#007DB8`
+- thirdColor: `#f7f7f7`
+- fourthColor: `#ababab`
+- fifthColor: `#262626`
 
 ## Contact
 
