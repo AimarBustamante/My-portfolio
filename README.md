@@ -2,11 +2,9 @@
 
 ![portfolio-img](https://github.com/AimarBustamante/myPortfolio/blob/main/img/Portafolio%20Mockup.png)
 
-## About 
+## Welcome 👋🏻 
 
 ### Brief
-
-Welcome 👋🏻
 
 The purpose of this portfolio is to show my skills as a programmer and the projects I have been involved in. It's an honor to have this website as a show of my skills
 
