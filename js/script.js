@@ -1,37 +1,24 @@
-//* Nav Menu
+// Nav Menu
 
 const sideMenu = document.getElementById("side-menu");
 
-function openMenu(){
-    sideMenu.style.right = "0";
+function toggleMenu(valor) {
+    sideMenu.style.right = valor
 }
 
-function closeMenu(){
-    sideMenu.style.right = "-50%";
-}
-
-//* Language Toggler
+// Language Toggler
 
 const check = document.querySelector(".toggler");
 
 check.addEventListener("click",language);
 
 function language(){
-    
-    let id = check.checked;
-
-    if (id == true){
-        location.href = "es/index.html";
-    }else{
-        location.href = "../index.html"
-    }
+    location.href = (check.checked) ? "../es/index.html" : "../index.html";
 }
 
-//* Load More
+// Load More
 
-
-
-//* Scroll Reveal
+// Scroll Reveal
 
 ScrollReveal().reveal('nav');
 ScrollReveal().reveal('#header', { delay: 500 });

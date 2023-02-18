@@ -45,36 +45,40 @@
 
     <!-- ** ----- Header ----- ** -->
 
-    <header id="header">
+    <header class="header" id="header">
 
         <!-- ** ----- Nav - Menu ----- ** -->
 
         <div class="container">
 
-            <nav class="container">
+            <nav class="nav container">
 
                 <h1 class="main-title"><span class="main-title blue">A</span>imar.</h1>
 
-                <ul id="side-menu">
+                <ul class="side-menu" id="side-menu">
 
                     <li>
-                        <a href="#header">Home</a>
+                        <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
                     </li>
 
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#header" title="Home">Home</a>
                     </li>
 
                     <li>
-                        <a href="#services">Services</a>
+                        <a href="#about" title="About">About</a>
                     </li>
 
                     <li>
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#services" title="Services">Services</a>
                     </li>
 
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="#portfolio" title="Portfolio">Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" title="Contact">Contact</a>
                     </li>
 
                     <li>
@@ -84,8 +88,6 @@
                             <span>ES</span>
                         </div>
                     </li>
-
-                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
 
                 </ul>
 
@@ -99,10 +101,10 @@
                     <div class="typed-out">Frontend Developer</div>                
                 </div>
                 
-                <h2>Hi, I´m <span class="blue">Aimar</span> <br> From Panama</h2>
+                <h2>Hi, I'm <span class="blue">Aimar</span> <br> From Panama</h2>
                 
                 <div class="typed-container">
-                    <div class="typed-out typed-out--second">Let´s work together!</div>                
+                    <div class="typed-out typed-out--second">Let's work together!</div>                
                 </div>
 
             </section>
@@ -117,7 +119,7 @@
 
         <!-- ** ---- About ---- ** -->
 
-        <section id="about">
+        <section class="about" id="about">
 
             <div class="container">
 
@@ -146,16 +148,16 @@
                             <p class="blue">Languages</p>
                             <ul>
                                 <li>
-                                    <p>HTML</p>
+                                    HTML
                                 </li>
                                 <li>
-                                    <p>CSS</p>
+                                    CSS
                                 </li>
                                 <li>
-                                    <p>JavaScript</p>
+                                    JavaScript
                                 </li>
                                 <li>
-                                    <p>SASS</p>
+                                    SASS
                                 </li>
                             </ul>
                         </div>
@@ -164,7 +166,7 @@
                             <p class="blue">Frameworks & Libraries</p>
                             <ul>
                                 <li>
-                                    <p>Bootstrap</p>
+                                    Bootstrap
                                 </li>
                             </ul>
                         </div>  
@@ -173,11 +175,8 @@
                             <p class="blue">Version Control</p>
                             <ul>
                                 <li>
-                                    <p>GIT</p>
+                                    GIT
                                 </li>                                
-                                <li>
-                                    <p>GitHub</p>
-                                </li>
                             </ul>
                         </div>
 
@@ -191,7 +190,7 @@
 
         <!-- ** ----- Services ----- ** -->
 
-        <section id="services">
+        <section class="services" id="services">
 
             <div class="container">
 
@@ -231,7 +230,7 @@
 
         <!-- ** ----- Portfolio ----- ** -->
 
-        <section id="portfolio">
+        <section class="portfolio" id="portfolio">
 
             <div class="container">
 
@@ -241,7 +240,7 @@
                 <div class="work-list">
 
                     <div class="work">
-                        <img src="img/Portafolio Mockup.png" alt="work-1">
+                        <img src="img/Portafolio Mockup.png" alt="My Portfolio">
 
                         <div class="layer">
 
@@ -249,18 +248,22 @@
 
                             <p>HTML - CSS - JS</p>
 
-                            <div>
-                                <a href="https://github.com/AimarBustamante/myPortfolio" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
-                                
-                                <a href="https://aimarbusta.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            </div>
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/AimarBustamante/myPortfolio" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
+                                </li>
+
+                                <li>
+                                    <a href="https://aimarbusta.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </li>
+                            </ul>
 
                         </div>
 
                     </div>
                     
                     <div class="work">
-                        <img src="img/Portfolio with Bootstrap Mockup.png" alt="work-2">
+                        <img src="img/Portfolio with Bootstrap Mockup.png" alt="Portfolio with Bootstrap Mockup">
 
                         <div class="layer">
 
@@ -268,18 +271,22 @@
 
                             <p>HTML - CSS - Bootstrap</p>
 
-                            <div>
-                                <a href="https://github.com/AimarBustamante/Portfolio-made-with-Bootstrap" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/AimarBustamante/Portfolio-made-with-Bootstrap" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
+                                </li>
                                 
-                                <a href="https://aimarbustamante.github.io/Portfolio-made-with-Bootstrap/" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            </div>
+                                <li>
+                                    <a href="https://aimarbustamante.github.io/Portfolio-made-with-Bootstrap/" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </li>
+                            </ul>
 
                         </div>
 
                     </div>
                     
                     <div class="work">
-                        <img src="img/easybank.jpg" alt="work-3">
+                        <img src="img/easybank.jpg" alt="Easybank Landing Page">
 
                         <div class="layer">
 
@@ -287,18 +294,22 @@
 
                             <p>HTML - SCSS - JS</p>
 
-                            <div>
-                                <a href="https://github.com/AimarBustamante/easybank-landing-page-master" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
-                                
-                                <a href="https://aimarbustamante.github.io/easybank-landing-page-master/" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            </div>
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/AimarBustamante/easybank-landing-page-master" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
+                                </li>
+
+                                <li>
+                                    <a href="https://aimarbustamante.github.io/easybank-landing-page-master/" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </li>
+                            </ul>
                                 
                         </div>
 
                     </div>
 
                     <div class="work">
-                        <img src="img/fylo-preview.jpg" alt="work-3">
+                        <img src="img/fylo-preview.jpg" alt="Fylo Landing Page">
 
                         <div class="layer">
 
@@ -306,18 +317,23 @@
 
                             <p>HTML - CSS</p>
 
-                            <div>
-                                <a href="https://github.com/AimarBustamante/Fylo-landing-page" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
-                                
-                                <a href="https://aimarbustamante.github.io/Fylo-landing-page/" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            </div>
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/AimarBustamante/Fylo-landing-page" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
+                                </li>
+
+                                <li>
+                                    <a href="https://aimarbustamante.github.io/Fylo-landing-page/" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </li>
+
+                            </ul>
                                 
                         </div>
 
                     </div>
 
                     <div class="work">
-                        <img src="img/e-commerce product page.jpg" alt="work-3">
+                        <img src="img/e-commerce product page.jpg" alt="E-commerce Product Page">
 
                         <div class="layer">
 
@@ -325,18 +341,22 @@
 
                             <p>HTML - SCSS - JS</p>
 
-                            <div>
-                                <a href="https://github.com/AimarBustamante/ecommerce-product-page-main" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
-                                
-                                <a href="https://aimarbustamante.github.io/ecommerce-product-page-main/" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            </div>
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/AimarBustamante/ecommerce-product-page-main" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
+                                </li>
+
+                                <li>
+                                    <a href="https://aimarbustamante.github.io/ecommerce-product-page-main/" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </li>
+                            </ul>
                                 
                         </div>
 
                     </div>
 
                     <div class="work">
-                        <img src="img/intro-section-preview.jpg" alt="work-3">
+                        <img src="img/intro-section-preview.jpg" alt="Intro Section Landing Page">
 
                         <div class="layer">
 
@@ -344,11 +364,15 @@
 
                             <p>HTML - CSS - JS</p>
 
-                            <div>
-                                <a href="https://github.com/AimarBustamante/intro-section-with-dropdown-navigation-main" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/AimarBustamante/intro-section-with-dropdown-navigation-main" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
+                                </li>
                                 
-                                <a href="https://aimarbustamante.github.io/intro-section-with-dropdown-navigation-main/" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            </div>
+                                <li>
+                                    <a href="https://aimarbustamante.github.io/intro-section-with-dropdown-navigation-main/" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </li>
+                            </ul>
                                 
                         </div>
 
@@ -372,17 +396,31 @@
 
                         <h2 class="subtitle">Contact Me</h2>
 
-                        <div class="social-icons">
+                        <ul class="social-icons">
 
-                            <a href="https://github.com/AimarBustamante" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
+                            <li>
+                                <a href="https://twitter.com/aimarBusta" target="_blank" rel="noopener noreferrer" aria-label="twitter"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
 
-                            <a href="https://www.linkedin.com/in/aimarbustamante/" target="_blank" rel="noopener noreferrer" aria-label="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                            <li>
+                                <a href="https://www.instagram.com/aimarbusta.dev/" target="_blank" rel="noopener noreferrer" aria-label="instagram"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
 
-                            <a href="mailto:aimarbustamante379@gmail.com" aria-label="mail"><i class="fa-solid fa-envelope"></i></a>
+                            <li>
+                                <a href="https://github.com/AimarBustamante" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
+                            </li>
 
-                        </div>
+                            <li>
+                                <a href="https://www.linkedin.com/in/aimarbustamante/" target="_blank" rel="noopener noreferrer" aria-label="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                            </li>
 
-                        <a href="pdf/Curriculum (EN).pdf" target="_blank" rel="noopener noreferrer" class="btn download-btn">Download CV <i class="fa-solid fa-download"></i></a>
+                            <li>
+                                <a href="mailto:aimarbustamante379@gmail.com" aria-label="mail"><i class="fa-solid fa-envelope"></i></a>
+                            </li>
+
+                        </ul>
+
+                        <a href="pdf/Curriculum (EN).pdf" target="_blank" rel="noopener noreferrer" class="btn download-btn">Download CV</a>
 
                     </div>
 
