@@ -94,6 +94,7 @@ button{
     margin: 0;
 }
 
+
 .nav{
     display: flex;
     position: fixed;
@@ -509,6 +510,31 @@ form input, form textarea{
 
 .copyright i{
     color: var(--secondaryColor);
+}
+
+/** ----- To top btn ----- **/
+
+.scroll-top-button {
+    position: fixed;
+    right: 20px;
+    bottom: 36px;
+    display: grid;
+    place-items: center;
+    width: 64px;
+    height: 64px;
+    border: 0;
+    border-radius: 50%;
+    background-color: var(--secondaryColor);
+    color: var(--thirdColor);
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.scroll-top-button.visible {
+    opacity: 1;
+    visibility: visible;
 }
 
 /** ----- Responsive ----- **/
