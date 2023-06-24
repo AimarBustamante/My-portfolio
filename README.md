@@ -1,6 +1,6 @@
 # Aimar Bustamante - Portfolio
 
-![portfolio-img](img/Portafolio Mockup.png)
+![portfolio-img](img/portfolio-mockup.png)
 
 ## Welcome 👋🏻 
 
