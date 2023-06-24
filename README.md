@@ -1,32 +1,47 @@
-# My Portfolio
+# Personal Portfolio
 
-![portfolio-img](img/portfolio-mockup.png)
+![Profile Image](img/portfolio-mockup.png)
 
-## Welcome 👋🏻 
+## Welcome
 
-### Brief
+Welcome to my personal portfolio! Here you will find a showcase of my work and experience in the field of frontend development. From web development projects to software solutions, it's all here!
 
-The purpose of this portfolio is to show my skills as a programmer and the projects I have been involved in. It's an honor to have this website as a show of my skills
+## About Me
 
-## Tecnologies 
+I am a passionate Frontend developer with a focus on web development. With 2 years of experience, I have worked on a wide range of challenging and exciting projects. My goal is to create innovative and high-quality solutions that meet the needs of my clients.
 
-The portfolio was created with the next Tecnologies. Additionally, Google Fonts was used to customize the fonts, Font Awesome for the icons, and Scroll Reveal for the scroll effect. Finally, the website was deployed on Netlify.
+## Skills
 
+### Languajes
 - HTML
 - CSS
 - JavaScript
+- SASS
+
+### Frameworks and Libraries
+
+- Bootstrap
+
+### Version Control
+
+- Git
 
 ## Color Reference
 
-- primaryColor: `#121212`
-- secondaryColor: `#007DB8`
-- thirdColor: `#f7f7f7`
-- fourthColor: `#ababab`
-- fifthColor: `#262626`
+Below are the colors used in my portfolio:
+
+- `primaryColor: #121212`
+- `secondaryColor: #007DB8`
+- `thirdColor: #f7f7f7`
+- `fourthColor: #ababab`
+- `fifthColor: #262626`
 
 ## Contact
 
+Feel free to reach out to me through the following channels:
+
 - [Portfolio](https://aimarbusta.netlify.app/)
-- [Twitter](https://twitter.com/aimarBusta)
-- [Instagram](https://www.instagram.com/aimarbusta.dev/)
 - [LinkedIn](https://www.linkedin.com/in/aimarbustamante/)
+- [GitHub](https://github.com/AimarBustamante)
+
+I look forward to connecting with you and discussing potential collaborations or projects.
