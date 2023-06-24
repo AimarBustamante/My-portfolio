@@ -4,7 +4,7 @@
 
 ## Welcome
 
-Welcome to my personal portfolio! Here you will find a showcase of my work and experience in the field of frontend development. From web development projects to software solutions, it's all here!
+Welcome to my personal portfolio! Here you will find a showcase of my work and experience in the field of frontend development. 
 
 ## About Me
 
