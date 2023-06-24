@@ -1,4 +1,4 @@
-# Aimar Bustamante - Portfolio
+# My Portfolio
 
 ![portfolio-img](img/portfolio-mockup.png)
 
