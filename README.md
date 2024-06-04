@@ -22,10 +22,17 @@ I am a passionate Frontend developer with a focus on web development. With 2 yea
 ### Frameworks and Libraries
 
 -   Bootstrap
+-   React
+-   Tailwind CSS
 
-### Version Control
+### No Code
 
--   Git
+-   WordPress
+-   Elementor
+
+### E-commerce
+
+-   Shopify
 
 ## Color Reference
 
