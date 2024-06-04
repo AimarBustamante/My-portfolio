@@ -1,469 +1,633 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- META -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Aimar Bustamante">
-    <meta name="description" content="This is my personal portfolio. Here you'll see my programmer profile and my latest projects. ">
-    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, Frontend, Frontend Developer, Web Developer">
-    <!-- TITLE -->
-    <title>Aimar Bustamante</title>
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://metatags.io/">
-    <meta property="og:title" content="My Portfolio">
-    <meta property="og:description" content="This is my personal portfolio. Here you'll see my programmer profile and my latest projects. ">
-    <meta property="og:image" content="https://aimarbusta.netlify.app/img/Portafolio%20Mockup.png">
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://metatags.io/">
-    <meta property="twitter:title" content="My Portfolio">
-    <meta property="twitter:description" content="This is my personal portfolio. Here you'll see my programmer profile and my latest projects. ">
-    <meta property="twitter:image" content="https://aimarbusta.netlify.app/img/Portafolio%20Mockup.png">
-    <!-- FAVICON -->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="img/favicon_io/site.webmanifest">
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <!-- JS -->
-    <script defer src="js/script.js"></script>
-    <!-- SCROLL REVEAL -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- FONT AWESOME -->
-    <script src="https://kit.fontawesome.com/0ce218d0bf.js" crossorigin="anonymous"></script>
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
-    <!-- GOOGLE SEARCH CONSOLE -->
-    <meta name="google-site-verification" content="mzp9jyI43N6AftAi4y-9sNKglq6sGFk53IjunKE5seA" />
-</head>
-<body>
-
-    <!-- ** ----- Header ----- ** -->
-
-    <header class="header" id="header">
-
-        <!-- ** ----- Nav - Menu ----- ** -->
-
-        <div class="container">
-
-            <nav class="nav container">
-
-                <h1 class="main-title"><span class="blue">A</span>imar</h1>
-
-                <ul class="side-menu" id="side-menu">
-
-                    <li>
-                        <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
-                    </li>
-
-                    <li>
-                        <a href="#header" title="Home">Home</a>
-                    </li>
-
-                    <li>
-                        <a href="#about" title="About">About</a>
-                    </li>
-
-                    <li>
-                        <a href="#services" title="Services">Services</a>
-                    </li>
-
-                    <li>
-                        <a href="#portfolio" title="Portfolio">Portfolio</a>
-                    </li>
-
-                    <li>
-                        <a href="#contact" title="Contact">Contact</a>
-                    </li>
-
-                    <li>
-                        <div class="toggle-switch">
-                            <span>EN</span>
-                            <input type="checkbox" class="toggler">
-                            <span>ES</span>
-                        </div>
-                    </li>
-
-                </ul>
-
-                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
-
-            </nav>
-
-            <section class="header-text">
-
-                <div class="typed-container">
-                    <div class="typed-out">Frontend Developer</div>                
-                </div>
-                
-                <h2>Hi, I'm <span class="blue">Aimar</span> <br> From Panama</h2>
-                
-                <div class="typed-container">
-                    <div class="typed-out typed-out--second">Let's work together!</div>                
-                </div>
-
-            </section>
-
-        </div>
-
-    </header>
-
-    <!-- ** ----- Main ----- ** -->
-
-    <main>
-
-        <!-- ** ---- About ---- ** -->
-
-        <section class="about" id="about">
-
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="about-col-1">
-                        <img src="img/aimarBusta-img.jpg" alt="aboutMe-img">
-                    </div>
-                    
-                    <div class="about-col-2">
-                        <h2 class="subtitle">About Me</h2>
-
-                        <p class="about-paragraph">
-                            I was born on November 15, 2004 in Panama City. Since I was a kid I've always been interested in technology and everything behind it. I started programming with Python but when I started learning HTML, I decided study web development.
-                        </p>
-
-                        <p class="about-paragraph">
-                            I love learn, I'm completely self-taught and I owe most of my knowledge to YouTube and the wonderful community of developers around the world.
-                        </p>
-
-                        <div class="tab-title">
-                            <p class="tab-link">Skills</p>
-                        </div>
-
-                        <div class="tab-content">
-                            <p class="blue">Languages</p>
-                            <ul>
-                                <li>
-                                    HTML
-                                </li>
-                                <li>
-                                    CSS
-                                </li>
-                                <li>
-                                    JavaScript
-                                </li>
-                                <li>
-                                    SASS
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="tab-content">
-                            <p class="blue">Frameworks & Libraries</p>
-                            <ul>
-                                <li>
-                                    Bootstrap
-                                </li>
-                            </ul>
-                        </div>  
-
-                        <div class="tab-content">
-                            <p class="blue">Version Control</p>
-                            <ul>
-                                <li>
-                                    GIT
-                                </li>                                
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <!-- ** ----- Services ----- ** -->
-
-        <section class="services" id="services">
-
-            <div class="container">
-
-                <h2 class="subtitle">My Services</h2>
-
-                <div class="services-list">
-
-                    <div>
-                        <i class="fa-solid fa-code"></i>
-                        <h3>Web Sites Creation</h3>
-                        <p>
-                            I offer you professional services for the creation of high quality and customized web sites. With modern, functional and responsive designs, I enhance your online presence. From an informative landing page to an website, I can provide you with solutions tailored to your needs. Boost your business in the digital world with a custom website!                        
-                        </p>
-                    </div>
-                    
-                    <div>
-                        <i class="fa-sharp fa-solid fa-screwdriver-wrench"></i>
-                        <h3>Web Maintenance</h3>
-                        <p>
-                            My goal is to help my clients save time and effort by taking care of maintenance tasks such as design updates, backups and troubleshooting. I also offer advice and recommendations to improve the performance of their websites.
-                        </p>
-                    </div>
-                    
-                    <div>
-                        <i class="fa-solid fa-handshake"></i>
-                        <h3>Professional Consulting</h3>
-                        <p>
-                            I offer professional web site consulting services and provide strategic and tailor-made solutions. I optimize your online presence, improve usability and design, and maximize performance. In addition, I will use my experience and up-to-date knowledge to enhance your digital success.                        
-                        </p>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <!-- ** ----- Portfolio ----- ** -->
-
-        <section class="portfolio" id="portfolio">
-
-            <div class="container">
-
-                <h2 class="subtitle">My Work</h2>
-                <p class="portfolio-attribution">*Some sites are from <a href="https://www.frontendmentor.io/home" target="_blank" rel="noopener noreferrer">Frontend Mentor</a></p>
-
-                <div class="work-list">
-
-                    <div class="work">
-                        <img src="img/portfolio-mockup.png" alt="My Portfolio">
-
-                        <div class="layer">
-
-                            <h3>My Portfolio</h3>
-
-                            <p>HTML - CSS - JS</p>
-
-                            <ul>
-                                <li>
-                                    <a href="https://github.com/AimarBustamante/myPortfolio" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
-                                </li>
-
-                                <li>
-                                    <a href="https://aimarbusta.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                                </li>
-                            </ul>
-
-                        </div>
-
-                    </div>
-                    
-                    <div class="work">
-                        <img src="img/Portfolio with Bootstrap Mockup.png" alt="Portfolio with Bootstrap Mockup">
-
-                        <div class="layer">
-
-                            <h3>Portfolio with Bootstrap</h3>
-
-                            <p>HTML - CSS - Bootstrap</p>
-
-                            <ul>
-                                <li>
-                                    <a href="https://github.com/AimarBustamante/Portfolio-made-with-Bootstrap" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
-                                </li>
-                                
-                                <li>
-                                    <a href="https://aimarbustamante.github.io/Portfolio-made-with-Bootstrap/" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                                </li>
-                            </ul>
-
-                        </div>
-
-                    </div>
-                    
-                    <div class="work">
-                        <img src="img/easybank.jpg" alt="Easybank Landing Page">
-
-                        <div class="layer">
-
-                            <h3>Easybank Landing Page</h3>
-
-                            <p>HTML - SCSS - JS</p>
-
-                            <ul>
-                                <li>
-                                    <a href="https://github.com/AimarBustamante/easybank-landing-page-master" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
-                                </li>
-
-                                <li>
-                                    <a href="https://aimarbustamante.github.io/easybank-landing-page-master/" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                                </li>
-                            </ul>
-                                
-                        </div>
-
-                    </div>
-
-                    <div class="work">
-                        <img src="img/tip-calculator-preview.jpg" alt="Tip Calculator App">
-
-                        <div class="layer">
-
-                            <h3>Tip Calculator App</h3>
-
-                            <p>HTML - CSS - JS</p>
-
-                            <ul>
-                                <li>
-                                    <a href="https://github.com/AimarBustamante/tip-calculator-app" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
-                                </li>
-
-                                <li>
-                                    <a href="https://aimarbustamante.github.io/tip-calculator-app/" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                                </li>
-
-                            </ul>
-                                
-                        </div>
-
-                    </div>
-
-                    <div class="work">
-                        <img src="img/bookmark.jpg" alt="E-commerce Product Page">
-
-                        <div class="layer">
-
-                            <h3>Bookmark Landing Page</h3>
-
-                            <p>HTML - CSS - JS</p>
-
-                            <ul>
-                                <li>
-                                    <a href="https://github.com/AimarBustamante/Bookmark-Landing-Page" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
-                                </li>
-
-                                <li>
-                                    <a href="https://aimarbustamante.github.io/Bookmark-Landing-Page/" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                                </li>
-                            </ul>
-                                
-                        </div>
-
-                    </div>
-
-                    <div class="work">
-                        <img src="img/rock,paper,scissor-preview.jpg" alt="Rock Paper Scissor page">
-
-                        <div class="layer">
-
-                            <h3>Rock Paper Scissor</h3>
-
-                            <p>HTML - CSS - JS</p>
-
-                            <ul>
-                                <li>
-                                    <a href="https://github.com/AimarBustamante/Rock-Paper-Scissor" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
-                                </li>
-                                
-                                <li>
-                                    <a href="https://aimarbustamante.github.io/Rock-Paper-Scissor/" target="_blank" rel="noopener noreferrer" aria-label="external-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                                </li>
-                            </ul>
-                                
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <!-- ** ----- Contact ----- ** -->
-
-        <section id="contact">
-
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="contact-left">
-
-                        <h2 class="subtitle">Contact Me</h2>
-
-                        <ul class="social-icons">
-
-                            <li>
-                                <a href="https://www.instagram.com/aimarbusta.dev/" target="_blank" rel="noopener noreferrer" aria-label="instagram"><i class="fa-brands fa-instagram"></i></a>
-                            </li>
-
-                            <li>
-                                <a href="https://github.com/AimarBustamante" target="_blank" rel="noopener noreferrer" aria-label="github"><i class="fa-brands fa-github"></i></a>
-                            </li>
-
-                            <li>
-                                <a href="https://www.linkedin.com/in/aimarbustamante/" target="_blank" rel="noopener noreferrer" aria-label="linkedin"><i class="fa-brands fa-linkedin"></i></a>
-                            </li>
-
-                            <li>
-                                <a href="mailto:aimarbustamante379@gmail.com" aria-label="mail"><i class="fa-solid fa-envelope"></i></a>
-                            </li>
-
-                        </ul>
-
-                        <a href="pdf/Aimar Bustamante - Curriculum - EN.pdf" target="_blank" rel="noopener noreferrer" class="btn download-btn">Download CV</a>
-
-                    </div>
-
-                    <div class="contact-right">
-
-                        <form name="contact" netlify>
-
-                            <input type="text" name="Name" placeholder="Name" required>
-
-                            <input type="email" name="email" placeholder="Email" required>
-
-                            <textarea name="Message" rows="6" placeholder="Message" required></textarea>
-
-                            <button type="submit" class="btn">Submit</button>
-
-                        </form>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-
-    <!-- ** ----- Footer ----- ** -->
-
-    <footer>
-
-        <section class="copyright">
-            <p>&copy; All rights reserved</p>
-            <p>Made with <i class="fa-solid fa-heart fa-beat"></i> by Aimar Bustamante</p>
-        </section>
-
-    </footer>
-
-    <!-- ** ----- To top btn ----- ** -->
-
-    <button onclick="scrollToTop()" id="scroll-top-button" class="scroll-top-button" type="button">
-        <span class="material-symbols-outlined"> 
-            <i class="fa-solid fa-caret-up"></i>     
-        </span>
-    </button>
-    
-</body>
+	<head>
+		<!-- META -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Aimar Bustamante" />
+		<meta
+			name="description"
+			content="This is my personal portfolio. Here you'll see my programmer profile and my latest projects. "
+		/>
+		<meta
+			name="keywords"
+			content="HTML, CSS, JavaScript, Bootstrap, Frontend, Frontend Developer, Web Developer"
+		/>
+		<!-- TITLE -->
+		<title>Aimar Bustamante</title>
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://metatags.io/" />
+		<meta property="og:title" content="My Portfolio" />
+		<meta
+			property="og:description"
+			content="This is my personal portfolio. Here you'll see my programmer profile and my latest projects. "
+		/>
+		<meta
+			property="og:image"
+			content="https://aimarbusta.netlify.app/img/Portafolio%20Mockup.png"
+		/>
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://metatags.io/" />
+		<meta property="twitter:title" content="My Portfolio" />
+		<meta
+			property="twitter:description"
+			content="This is my personal portfolio. Here you'll see my programmer profile and my latest projects. "
+		/>
+		<meta
+			property="twitter:image"
+			content="https://aimarbusta.netlify.app/img/Portafolio%20Mockup.png"
+		/>
+		<!-- FAVICON -->
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="img/favicon_io/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="img/favicon_io/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="img/favicon_io/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="img/favicon_io/site.webmanifest" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/normalize.css" />
+		<!-- JS -->
+		<script defer src="js/script.js"></script>
+		<!-- SCROLL REVEAL -->
+		<script src="https://unpkg.com/scrollreveal"></script>
+		<!-- FONT AWESOME -->
+		<script
+			src="https://kit.fontawesome.com/0ce218d0bf.js"
+			crossorigin="anonymous"
+		></script>
+		<!-- GOOGLE FONTS -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- GOOGLE SEARCH CONSOLE -->
+		<meta
+			name="google-site-verification"
+			content="mzp9jyI43N6AftAi4y-9sNKglq6sGFk53IjunKE5seA"
+		/>
+	</head>
+	<body>
+		<!-- ** ----- Header ----- ** -->
+
+		<header class="header" id="header">
+			<!-- ** ----- Nav - Menu ----- ** -->
+
+			<div class="container">
+				<nav class="nav container">
+					<h1 class="main-title"><span class="blue">A</span>imar</h1>
+
+					<ul class="side-menu" id="side-menu">
+						<li>
+							<i
+								class="fa-solid fa-xmark"
+								onclick="closeMenu()"
+							></i>
+						</li>
+
+						<li>
+							<a href="#header" title="Home">Home</a>
+						</li>
+
+						<li>
+							<a href="#about" title="About">About Me</a>
+						</li>
+
+						<li>
+							<a href="#services" title="Services">Services</a>
+						</li>
+
+						<li>
+							<a href="#portfolio" title="Portfolio">Portfolio</a>
+						</li>
+
+						<li>
+							<a href="#contact" title="Contact">Contact</a>
+						</li>
+
+						<li>
+							<div class="toggle-switch">
+								<span>EN</span>
+								<input type="checkbox" class="toggler" />
+								<span>ES</span>
+							</div>
+						</li>
+					</ul>
+
+					<i class="fa-solid fa-bars" onclick="openMenu()"></i>
+				</nav>
+
+				<section class="header-text">
+					<div class="typed-container">
+						<div class="typed-out">Frontend Developer</div>
+					</div>
+
+					<h2>
+						Hi, I'm <span class="blue">Aimar</span> <br />
+						From Panama
+					</h2>
+
+					<div class="typed-container">
+						<div class="typed-out typed-out--second">
+							Let's work together!
+						</div>
+					</div>
+				</section>
+			</div>
+		</header>
+
+		<!-- ** ----- Main ----- ** -->
+
+		<main>
+			<!-- ** ---- About ---- ** -->
+
+			<section class="about" id="about">
+				<div class="container">
+					<div class="row">
+						<div class="about-col-1">
+							<img
+								src="img/aimarBusta-img.jpg"
+								alt="aboutMe-img"
+							/>
+						</div>
+
+						<div class="about-col-2">
+							<h2 class="subtitle">About Me</h2>
+
+							<p class="about-paragraph">
+								I was born on November 15, 2004 in Panama City.
+								Since I was a kid I've always been interested in
+								technology and everything behind it. I started
+								programming with Python but when I started
+								learning HTML, I decided study web development.
+							</p>
+
+							<p class="about-paragraph">
+								I love learn, I'm completely self-taught and I
+								owe most of my knowledge to YouTube and the
+								wonderful community of developers around the
+								world.
+							</p>
+
+							<div class="tab-title">
+								<p class="tab-link">Skills</p>
+							</div>
+
+							<div class="tab-content">
+								<p class="blue">Languages</p>
+								<ul>
+									<li>HTML</li>
+									<li>CSS</li>
+									<li>JavaScript</li>
+									<li>SASS</li>
+								</ul>
+							</div>
+
+							<div class="tab-content">
+								<p class="blue">Frameworks & Libraries</p>
+								<ul>
+									<li>Bootstrap</li>
+									<li>React</li>
+									<li>Tailwind CSS</li>
+								</ul>
+							</div>
+
+							<div class="tab-content">
+								<p class="blue">No Code</p>
+								<ul>
+									<li>WordPress</li>
+									<li>Elementor</li>
+								</ul>
+							</div>
+							
+							<div class="tab-content">
+								<p class="blue">E-commerce</p>
+								<ul>
+									<li>Shopify</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ** ----- Services ----- ** -->
+
+			<section class="services" id="services">
+				<div class="container">
+					<h2 class="subtitle">My Services</h2>
+
+					<div class="services-list">
+						<div>
+							<i class="fa-solid fa-code"></i>
+							<h3>Web Sites Creation</h3>
+							<p>
+								I offer you professional services for the
+								creation of high quality and customized web
+								sites. With modern, functional and responsive
+								designs, I enhance your online presence. From an
+								informative landing page to an website, I can
+								provide you with solutions tailored to your
+								needs. Boost your business in the digital world
+								with a custom website!
+							</p>
+						</div>
+
+						<div>
+							<i
+								class="fa-sharp fa-solid fa-screwdriver-wrench"
+							></i>
+							<h3>Web Maintenance</h3>
+							<p>
+								My goal is to help my clients save time and
+								effort by taking care of maintenance tasks such
+								as design updates, backups and troubleshooting.
+								I also offer advice and recommendations to
+								improve the performance of their websites.
+							</p>
+						</div>
+
+						<div>
+							<i class="fa-solid fa-handshake"></i>
+							<h3>Professional Consulting</h3>
+							<p>
+								I offer professional web site consulting
+								services and provide strategic and tailor-made
+								solutions. I optimize your online presence,
+								improve usability and design, and maximize
+								performance. In addition, I will use my
+								experience and up-to-date knowledge to enhance
+								your digital success.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ** ----- Portfolio ----- ** -->
+
+			<section class="portfolio" id="portfolio">
+				<div class="container">
+					<h2 class="subtitle">My Work</h2>
+					<p class="portfolio-attribution">
+						*Some sites are from
+						<a
+							href="https://www.frontendmentor.io/home"
+							target="_blank"
+							rel="noopener noreferrer"
+							>Frontend Mentor</a
+						>
+					</p>
+
+					<div class="work-list">
+						<div class="work">
+							<img
+								src="img/portfolio-mockup.png"
+								alt="My Portfolio"
+							/>
+
+							<div class="layer">
+								<h3>My Portfolio</h3>
+
+								<p>HTML - CSS - JS</p>
+
+								<ul>
+									<li>
+										<a
+											href="https://github.com/AimarBustamante/myPortfolio"
+											target="_blank"
+											rel="noopener noreferrer"
+											aria-label="github"
+											><i class="fa-brands fa-github"></i
+										></a>
+									</li>
+
+									<li>
+										<a
+											href="https://aimarbusta.netlify.app/"
+											target="_blank"
+											rel="noopener noreferrer"
+											aria-label="external-link"
+											><i
+												class="fa-solid fa-arrow-up-right-from-square"
+											></i
+										></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="work">
+							<img
+								src="img/Portfolio with Bootstrap Mockup.png"
+								alt="Portfolio with Bootstrap Mockup"
+							/>
+
+							<div class="layer">
+								<h3>Portfolio with Bootstrap</h3>
+
+								<p>HTML - CSS - Bootstrap</p>
+
+								<ul>
+									<li>
+										<a
+											href="https://github.com/AimarBustamante/Portfolio-made-with-Bootstrap"
+											target="_blank"
+											rel="noopener noreferrer"
+											aria-label="github"
+											><i class="fa-brands fa-github"></i
+										></a>
+									</li>
+
+									<li>
+										<a
+											href="https://aimarbustamante.github.io/Portfolio-made-with-Bootstrap/"
+											target="_blank"
+											rel="noopener noreferrer"
+											aria-label="external-link"
+											><i
+												class="fa-solid fa-arrow-up-right-from-square"
+											></i
+										></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="work">
+							<img
+								src="img/easybank.jpg"
+								alt="Easybank Landing Page"
+							/>
+
+							<div class="layer">
+								<h3>Easybank Landing Page</h3>
+
+								<p>HTML - SCSS - JS</p>
+
+								<ul>
+									<li>
+										<a
+											href="https://github.com/AimarBustamante/easybank-landing-page-master"
+											target="_blank"
+											rel="noopener noreferrer"
+											aria-label="github"
+											><i class="fa-brands fa-github"></i
+										></a>
+									</li>
+
+									<li>
+										<a
+											href="https://aimarbustamante.github.io/easybank-landing-page-master/"
+											target="_blank"
+											rel="noopener noreferrer"
+											aria-label="external-link"
+											><i
+												class="fa-solid fa-arrow-up-right-from-square"
+											></i
+										></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="work">
+							<img
+								src="img/tip-calculator-preview.jpg"
+								alt="Tip Calculator App"
+							/>
+
+							<div class="layer">
+								<h3>Tip Calculator App</h3>
+
+								<p>HTML - CSS - JS</p>
+
+								<ul>
+									<li>
+										<a
+											href="https://github.com/AimarBustamante/tip-calculator-app"
+											target="_blank"
+											rel="noopener noreferrer"
+											aria-label="github"
+											><i class="fa-brands fa-github"></i
+										></a>
+									</li>
+
+									<li>
+										<a
+											href="https://aimarbustamante.github.io/tip-calculator-app/"
+											target="_blank"
+											rel="noopener noreferrer"
+											aria-label="external-link"
+											><i
+												class="fa-solid fa-arrow-up-right-from-square"
+											></i
+										></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="work">
+							<img
+								src="img/Pet-Care-Portal-Mockup.png"
+								alt="E-commerce Product Page"
+							/>
+
+							<div class="layer">
+								<h3>Pet Care Portal</h3>
+
+								<p>React - Vite - Tailwind CSS</p>
+
+								<ul>
+									<li>
+										<a
+											href="https://github.com/AimarBustamante/pet_care_portal"
+											target="_blank"
+											rel="noopener noreferrer"
+											aria-label="github"
+											><i class="fa-brands fa-github"></i
+										></a>
+									</li>
+
+									<li>
+										<a
+											href="https://pet-care-portal.netlify.app/"
+											target="_blank"
+											rel="noopener noreferrer"
+											aria-label="external-link"
+											><i
+												class="fa-solid fa-arrow-up-right-from-square"
+											></i
+										></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="work">
+							<img
+								src="img/rock,paper,scissor-preview.jpg"
+								alt="Rock Paper Scissor page"
+							/>
+
+							<div class="layer">
+								<h3>Rock Paper Scissor</h3>
+
+								<p>HTML - CSS - JS</p>
+
+								<ul>
+									<li>
+										<a
+											href="https://github.com/AimarBustamante/Rock-Paper-Scissor"
+											target="_blank"
+											rel="noopener noreferrer"
+											aria-label="github"
+											><i class="fa-brands fa-github"></i
+										></a>
+									</li>
+
+									<li>
+										<a
+											href="https://aimarbustamante.github.io/Rock-Paper-Scissor/"
+											target="_blank"
+											rel="noopener noreferrer"
+											aria-label="external-link"
+											><i
+												class="fa-solid fa-arrow-up-right-from-square"
+											></i
+										></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ** ----- Contact ----- ** -->
+
+			<section id="contact">
+				<div class="container">
+					<div class="row">
+						<div class="contact-left">
+							<h2 class="subtitle">Contact Me</h2>
+
+							<ul class="social-icons">
+								<li>
+									<a
+										href="https://www.instagram.com/aimarbusta.dev/"
+										target="_blank"
+										rel="noopener noreferrer"
+										aria-label="instagram"
+										><i class="fa-brands fa-instagram"></i
+									></a>
+								</li>
+
+								<li>
+									<a
+										href="https://github.com/AimarBustamante"
+										target="_blank"
+										rel="noopener noreferrer"
+										aria-label="github"
+										><i class="fa-brands fa-github"></i
+									></a>
+								</li>
+
+								<li>
+									<a
+										href="https://www.linkedin.com/in/aimarbustamante/"
+										target="_blank"
+										rel="noopener noreferrer"
+										aria-label="linkedin"
+										><i class="fa-brands fa-linkedin"></i
+									></a>
+								</li>
+
+								<li>
+									<a
+										href="mailto:aimarbustamante379@gmail.com"
+										aria-label="mail"
+										><i class="fa-solid fa-envelope"></i
+									></a>
+								</li>
+							</ul>
+
+						</div>
+
+						<div class="contact-right">
+							<form name="contact" netlify>
+								<input
+									type="text"
+									name="Name"
+									placeholder="Name"
+									required
+								/>
+
+								<input
+									type="email"
+									name="email"
+									placeholder="Email"
+									required
+								/>
+
+								<textarea
+									name="Message"
+									rows="6"
+									placeholder="Message"
+									required
+								></textarea>
+
+								<button type="submit" class="btn">
+									Submit
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- ** ----- Footer ----- ** -->
+
+		<footer>
+			<section class="copyright">
+				<p>&copy; All rights reserved</p>
+				<p>
+					Made with <i class="fa-solid fa-heart fa-beat"></i> by Aimar
+					Bustamante
+				</p>
+			</section>
+		</footer>
+
+		<!-- ** ----- To top btn ----- ** -->
+
+		<button
+			onclick="scrollToTop()"
+			id="scroll-top-button"
+			class="scroll-top-button"
+			type="button"
+		>
+			<span class="material-symbols-outlined">
+				<i class="fa-solid fa-caret-up"></i>
+			</span>
+		</button>
+	</body>
 </html>

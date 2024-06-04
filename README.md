@@ -4,7 +4,7 @@
 
 ## Welcome
 
-Welcome to my personal portfolio! Here you will find a showcase of my work and experience in the field of frontend development. 
+Welcome to my personal portfolio! Here you will find a showcase of my work and experience in the field of frontend development.
 
 ## About Me
 
@@ -13,35 +13,43 @@ I am a passionate Frontend developer with a focus on web development. With 2 yea
 ## Skills
 
 ### Languajes
-- HTML
-- CSS
-- JavaScript
-- SASS
+
+-   HTML
+-   CSS
+-   JavaScript
+-   SASS
 
 ### Frameworks and Libraries
 
-- Bootstrap
+-   Bootstrap
+-   React
+-   Tailwind CSS
 
-### Version Control
+### No Code
 
-- Git
+-   WordPress
+-   Elementor
+
+### E-commerce
+
+-   Shopify
 
 ## Color Reference
 
 Below are the colors used in my portfolio:
 
-- `primaryColor: #121212`
-- `secondaryColor: #007DB8`
-- `thirdColor: #f7f7f7`
-- `fourthColor: #ababab`
-- `fifthColor: #262626`
+-   `primaryColor: #121212`
+-   `secondaryColor: #007DB8`
+-   `thirdColor: #f7f7f7`
+-   `fourthColor: #ababab`
+-   `fifthColor: #262626`
 
 ## Contact
 
 Feel free to reach out to me through the following channels:
 
-- [Portfolio](https://aimarbusta.netlify.app/)
-- [LinkedIn](https://www.linkedin.com/in/aimarbustamante/)
-- [GitHub](https://github.com/AimarBustamante)
+-   [Portfolio](https://aimarbusta.netlify.app/)
+-   [LinkedIn](https://www.linkedin.com/in/aimarbustamante/)
+-   [GitHub](https://github.com/AimarBustamante)
 
 I look forward to connecting with you and discussing potential collaborations or projects.
