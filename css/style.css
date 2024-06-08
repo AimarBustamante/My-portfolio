@@ -541,7 +541,20 @@ form textarea {
 
 /** ----- Responsive ----- **/
 
-@media only screen and (min-width: 2150px) {
+@media only screen and (min-width: 2333px) {
+
+	.work-list {
+        grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    }
+
+}
+
+@media only screen and (min-width: 1750px) {
+
+	.work-list {
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
+
 	.container {
 		padding: 0.625rem 20%;
 	}
@@ -551,7 +564,10 @@ form textarea {
 	}
 }
 
-@media only screen and (max-width: 1195px) {
+@media only screen and (min-width: 1195px) {
+	.work-list {
+		grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+	}
 	/** --- Contact --- **/
 
 	.download-btn {
@@ -566,7 +582,7 @@ form textarea {
 	/** --- Portfolio --- **/
 
 	.work-list {
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 	}
 
 	.layer h3 {
