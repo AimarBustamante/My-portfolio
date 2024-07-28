@@ -8,8 +8,7 @@ Welcome to my personal portfolio! Here you will find a showcase of my work and e
 
 ## ❗Important
 
-This portfolio will be soon replaced by a new one with a new desigh and build with more new and modern technologies
-
+This portfolio has been replaced by other more advanced technologies. You can access it [here](https://aimarbusta.dev/)
 ## 👨🏻‍💻About Me
 
 I am a passionate Frontend developer with a focus on web development. With 2 years of experience, I have worked on a wide range of challenging and exciting projects. My goal is to create innovative and high-quality solutions that meet the needs of my clients.
